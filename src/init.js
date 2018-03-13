@@ -31,5 +31,7 @@ $(document).ready(function() {
     var danceId = "dancer"+ (Math.floor(Math.random() * 9) + 1);
     $('body').append(dancer.$node);
     $('span:last-child').addClass(danceId);
+    $('span:last-child').addClass("draggable");
+
   });
 });
