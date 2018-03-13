@@ -1,5 +1,10 @@
+* , *:before, *:after {
+  box-sizing: : border-box;
+}
+
 body, html{
   height:100%;
+
 }
 body{
   margin: 0px;
@@ -21,7 +26,25 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  /*border:100px solid red;*/
+
+  /*border-radius:10px;*/
   position:absolute;
+
+}
+.dancer1{
+  width: 101px;
+  height: 128px;
+
+  background: url("15_FullFront.png");
+  background-size: cover;
+}
+
+
+.dancer2{
+  width: 96px;
+  height: 108px;
+
+  background: url("17_FullFront.png");
+  background-size: cover;
 }

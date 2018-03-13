@@ -24,10 +24,12 @@ $(document).ready(function() {
     // make a dancer with a random position
 
     var dancer = new dancerMakerFunction(
-      $("body").height() * Math.random(),
-      $("body").width() * Math.random(),
+      $('body').height() * Math.random(),
+      $('body').width() * Math.random(),
       Math.random() * 1000
     );
+    var danceId = "dancer"+ (Math.floor(Math.random() * 2) + 1);
     $('body').append(dancer.$node);
+    $('span:last-child').addClass(danceId);
   });
 });
