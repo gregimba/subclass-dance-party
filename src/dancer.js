@@ -37,13 +37,14 @@ var Dancer = function(top, left, timeBetweenSteps){
   this.top = top;
   this.left = left;
   this.timeBetweenSteps = timeBetweenSteps;
-  this.setPosition(top, left);
+  console.log(this);
+  this.setPosition(this.top, this.left);
   this.step();
 
 };
 
 Dancer.prototype.step = function() {
-  setTimeout(this.step.bind(this),this.timeBetweenSteps); 
+  setTimeout(this.step.bind(this),this.timeBetweenSteps);
   console.log('in dancer')
 };
 
@@ -55,4 +56,3 @@ Dancer.prototype.setPosition = function(top,left){
   };
   this.$node.css(styleSettings);
 };
-
