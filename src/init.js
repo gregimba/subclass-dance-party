@@ -28,7 +28,7 @@ $(document).ready(function() {
       $('body').width() * Math.random(),
       Math.random() * 1000
     );
-    var danceId = "dancer"+ (Math.floor(Math.random() * 2) + 1);
+    var danceId = "dancer"+ (Math.floor(Math.random() * 9) + 1);
     $('body').append(dancer.$node);
     $('span:last-child').addClass(danceId);
   });

@@ -30,21 +30,75 @@ body, a:link, a:visited, a:active{
 
   /*border-radius:10px;*/
   position:absolute;
-
 }
+
 .dancer1{
   width: 101px;
   height: 128px;
 
-  background: url("15_FullFront.png");
+  background: url("1.png");
   background-size: cover;
 }
 
-
 .dancer2{
+  width: 101px;
+  height: 128px;
+
+  background: url("2.png");
+  background-size: cover;
+}
+
+.dancer3{
   width: 96px;
   height: 108px;
 
-  background: url("17_FullFront.png");
+  background: url("3.png");
+  background-size: cover;
+}
+
+.dancer4{
+  width: 103px;
+  height: 140px;
+
+  background: url("4.png");
+  background-size: cover;
+}
+
+.dancer5{
+  width: 290px;
+  height: 246px;
+
+  background: url("5.png");
+  background-size: cover;
+}
+
+.dancer6{
+  width: 107px;
+  height: 149px;
+
+  background: url("6.png");
+  background-size: cover;
+}
+.dancer7{
+  width: 106px;
+  height: 116px;
+
+  background: url("7.png");
+  background-size: cover;
+}
+
+.dancer8{
+  width: 195px;
+  height: 101px;
+
+  background: url("8.png");
+  background-size: cover;
+}
+
+.dancer9{
+  width: 97px;
+  height: 136px;
+
+  background: url("9.png");
   background-size: cover;
 }
